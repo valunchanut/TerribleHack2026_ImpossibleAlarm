@@ -1,5 +1,5 @@
-import MathChallenge from "../tasks/MathChallenge";
-import ShakeChallenge from "../tasks/ShakeChallenge";
+import MathChallenge from "./MathChallenge";
+import ShakeChallenge from "./ShakeChallenge";
 
 export type TaskDifficulty = "easy" | "medium" | "hard";
 

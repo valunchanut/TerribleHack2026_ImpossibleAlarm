@@ -10,7 +10,7 @@ import {
   Modal,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { useAlarmStore, Alarm } from "../store/alarmStore";
+import { useAlarmStore, Alarm } from "../store/alarmStore.ts";
 import { Ionicons } from "@expo/vector-icons";
 
 function formatTime(hour: number, minute: number): string {
@@ -78,7 +78,7 @@ export default function HomeScreen() {
               style={styles.shameBtn}
               onPress={() => setShameFlag(false)}
             >
-              <Text style={styles.shameBtnText}>I won't do it again</Text>
+              <Text style={styles.shameBtnText}>Sorry</Text>
             </TouchableOpacity>
           </View>
         </View>
